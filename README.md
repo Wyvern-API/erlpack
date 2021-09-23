@@ -2,6 +2,14 @@
 
 Erlpack is a fast encoder and decoder for the Erlang Term Format (version 131) for Python and JavaScript.
 
+## Important
+
+This is a temporary package, it's a fork from discord's package named [Erlpack](https://github.com/discord/erlpack),
+the package has issues when it comes to multi-threading with javascript, this fork fixes the issues meanwhile
+[this pull request is merged](https://github.com/discord/erlpack/pull/42).
+
+And this repo wil also have a csharp support that will be available on NuGet (It might be in a complete separate repo).
+
 # JavaScript
 
 ## Things that can be packed:
