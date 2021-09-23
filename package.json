@@ -1,7 +1,7 @@
 {
   "main": "./js/index.js",
   "types": "./js/index.d.ts",
-  "name": "erlpack",
+  "name": "@wyvern.ts/erlpack",
   "version": "0.1.3",
   "description": "Erlpack is a fast encoder and decoder for the Erlang Term Format (version 131) for JavaScript",
   "scripts": {
@@ -26,6 +26,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/discord/erlpack.git"
+    "url": "https://github.com/Wyvern-API/erlpack.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
